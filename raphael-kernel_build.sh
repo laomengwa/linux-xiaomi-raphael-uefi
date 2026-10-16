@@ -1,5 +1,5 @@
 set -e
-git clone https://github.com/GengWei1997/linux.git --branch raphael-$1 --depth 1 linux
+git clone https://github.com/laomengwa/linux.git --branch raphael-$1 --depth 1 linux
 patch linux/scripts/package/builddeb < builddeb.patch
 cd linux
 git add .
